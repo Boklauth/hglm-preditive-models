@@ -1,0 +1,38 @@
+---
+title: "Model Equations"
+author: "Bo Klauth"
+date: "April 21, 2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# RQ1
+
+$$
+\eta_{ij} =\gamma_{00}+\gamma_{10} HSGPA_{ij}+\gamma_{20}ACT_{ij}+\gamma_{30}fallGPA_{ij}+\sum_{p=4}^{6}\gamma_{p0} \ demo_{ij}+\sum_{q=7}^{9}\gamma_{q0}\ cohort_{ij}+ u_{0j}
+
+$$
+
+# RQ2
+
+$$
+\eta_{ij} =\gamma_{00}+\gamma_{01}HSGPA_{j}+\gamma_{02}ACT_{j}+\gamma_{03}fallGPA_{j}+
+\sum_{p=4}^{7} \gamma_{0p} demo_{j}+
+
+$$
+$$
+\gamma_{10} HSGPA_{ij}+\gamma_{20}ACT_{ij}+\gamma_{30}fallGPA_{ij}+\sum_{p=4}^{6}\gamma_{p0} \ demo_{ij}+
+$$
+
+Under the hierachical generalized linear modeling, there is no error term for the individual level. 
+
+$$
+\sum_{q=7}^{9}\gamma_{q0}\ cohort_{ij}+ u_{ij}
+$$
+
+# RQ2
